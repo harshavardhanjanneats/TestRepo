@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\MyTest\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\MyTest\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\MyTest\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\MyTest\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\harshavardhan.janne\\.nuget\\packages\\",
-        "outputPath": "D:\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\MyTest\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,8 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://10.115.11.150:8080/tfs/ATS/Software/_packaging/ATS_Packages/nuget/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://atssource.advantest.com/_registry/nuget/platform/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -44,11 +45,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2025.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

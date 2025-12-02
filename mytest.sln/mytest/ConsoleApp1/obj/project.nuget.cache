@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9GucU6anyZHph9gYwh0KfOz0k9vlxQIBZtCjaCNlpJcph6SnCR9g75xUuGWx4JjD39BSobJ/JHwRTUbpQdHk8w==",
+  "dgSpecHash": "8eROb1ZgK7s=",
   "success": true,
-  "projectFilePath": "D:\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.115.11.150:8080/tfs/ATS/Software/_packaging/ATS_Packages/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "projectFilePath": "D:\\MyTest\\TestRepo\\mytest.sln\\mytest\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harshavardhan.janne\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
+    "C:\\Users\\harshavardhan.janne\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\harshavardhan.janne\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\harshavardhan.janne\\.nuget\\packages\\ssh.net\\2025.0.0\\ssh.net.2025.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }
